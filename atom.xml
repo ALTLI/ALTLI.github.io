@@ -6,7 +6,7 @@
   <link href="https://altli.github.io/atom.xml" rel="self"/>
   
   <link href="https://altli.github.io/"/>
-  <updated>2020-10-16T10:06:54.945Z</updated>
+  <updated>2020-10-16T10:15:44.640Z</updated>
   <id>https://altli.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://altli.github.io/2020/09/04/shan-dong-da-xue-ruan-jian-xue-yuan-ren-gong-zhi-neng-dao-lun-kao-shi-qi-mo-kao-shi-hui-yi-ban/"/>
     <id>https://altli.github.io/2020/09/04/shan-dong-da-xue-ruan-jian-xue-yuan-ren-gong-zhi-neng-dao-lun-kao-shi-qi-mo-kao-shi-hui-yi-ban/</id>
     <published>2020-09-04T08:56:34.000Z</published>
-    <updated>2020-10-16T10:06:54.945Z</updated>
+    <updated>2020-10-16T10:15:44.640Z</updated>
     
     
       
@@ -36,8 +36,12 @@
     
     
     
+    <category term="考试" scheme="https://altli.github.io/categories/%E8%80%83%E8%AF%95/"/>
+    
     
     <category term="考试" scheme="https://altli.github.io/tags/%E8%80%83%E8%AF%95/"/>
+    
+    <category term="人工智能" scheme="https://altli.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
     
   </entry>
   

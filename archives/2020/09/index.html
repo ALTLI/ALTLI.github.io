@@ -450,7 +450,7 @@
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + 11 + '.jpg'; // 此处的7原来为：new Date().getDay()，可实现每天更换图片0-6
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg'; // 此处的7原来为：new Date().getDay()，可实现每天更换图片0-6
     $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
@@ -587,15 +587,7 @@
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    2020年9月4日，2020-2021年度山东大学软件学院人工智能导论期末考试
-考试时间因疫情影响改为大三上学期开学第一周考试
-一. 名词解释
-数据挖掘
-演绎推理
-智能计算
-启发式搜索
-前束范式二. 简答题
-模糊推理中模糊关系的合成有哪些方
+                                    AI导论期末考试题目
                                 
                             </div>
                             <div class="publish-info">
@@ -604,8 +596,12 @@
                                 </span>
                                 <span class="publish-author">
                                     
-                                    <i class="fas fa-user fa-fw"></i>
-                                    李霆泷
+                                    <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                    
+                                    <a href="/categories/%E8%80%83%E8%AF%95/" class="post-category">
+                                    考试
+                                    </a>
+                                    
                                     
                                 </span>
                             </div>
@@ -615,6 +611,8 @@
                         <div class="card-action article-tags">
                             
                             <a href="/tags/%E8%80%83%E8%AF%95/"><span class="chip bg-color">考试</span></a>
+                            
+                            <a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"><span class="chip bg-color">人工智能</span></a>
                             
                         </div>
                         

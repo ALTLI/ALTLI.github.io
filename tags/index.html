@@ -450,7 +450,7 @@
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + 11 + '.jpg'; // 此处的7原来为：new Date().getDay()，可实现每天更换图片0-6
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg'; // 此处的7原来为：new Date().getDay()，可实现每天更换图片0-6
     $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
@@ -479,6 +479,15 @@
                     </span>
                 </a>
                 
+                
+                <a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" title="人工智能: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="人工智能" style="background-color: #F5EEF8;">人工智能
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
@@ -503,7 +512,7 @@
 <script type="text/javascript">
     
 
-    $('#tag-wordcloud').jQCloud([{"text":"考试","weight":1,"link":"/tags/考试/"}], {
+    $('#tag-wordcloud').jQCloud([{"text":"考试","weight":1,"link":"/tags/考试/"},{"text":"人工智能","weight":1,"link":"/tags/人工智能/"}], {
         autoResize: true
     });
 </script>
