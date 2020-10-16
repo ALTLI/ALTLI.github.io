@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ALTLI</title>
   
-  
+  <subtitle>ALTLI&#39;S WORLD</subtitle>
   <link href="https://altli.github.io/atom.xml" rel="self"/>
   
   <link href="https://altli.github.io/"/>
